@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Coding Bootcamps</h1>
+      <p class="about">
+        Our Part-Time Bootcamps are a flexible alternative that provides onsite
+        or online access to our in-depth curriculum—complete with real-time
+        support from instructors, our industry-tested learning platform,
+        hands-on assignments, and much more. Ideal for students who cannot
+        commit to a full-time course, you’ll learn the skills needed to become a
+        self-sufficient developer in as little as 20-25 hours per week.
+      </p>
+    </header>
+    <main>
+      <div class="btnShow">
+        <button class="show-modal">Python</button>
+        <button class="show-modal">C# .NET</button>
+        <button class="show-modal">MERN</button>
+        <button class="show-modal">Java</button>
+      </div>
+
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h3>Python Bootcamp</h3>
+        <p class="info">
+          Complete your stack with the language used by Instagram, YouTube and
+          Spotify, with use cases from web dev to data science. Python is not
+          only diverse, adaptable and elegant, but also easy to master.
+        </p>
+        <p class="info">Technologies covered:</p>
+        <ul class="info">
+          <li>Web Fundamentals</li>
+          <li>Python</li>
+          <li>MySQL</li>
+          <li>Flask</li>
+          <li>Ajax</li>
+          <li>APIs</li>
+          <li>Django</li>
+        </ul>
+      </div>
+
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h3>C# .NET Bootcamp</h3>
+        <p class="info">
+          Complete your stack with .NET Core – the reimagining of the respected
+          .NET framework by Microsoft. With C# you will be ready to write
+          versatile desktop, web and mobile apps across operating systems
+        </p>
+        <p class="info">Technologies covered:</p>
+        <ul class="info">
+          <li>Web Fundamentals</li>
+          <li>C#</li>
+          <li>.NET Core</li>
+          <li>NancyFx</li>
+          <li>ASP.NET</li>
+          <li>MySQL</li>
+          <li>Dapper</li>
+        </ul>
+      </div>
+
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h3>MERN Bootcamp</h3>
+        <p class="info">
+          Pick the most robust way to go about full-stack development, a single
+          coding language. MERN stack runs JavaScript on every level of the
+          application, making it an efficient and modern approach to web
+          development.
+        </p>
+        <p class="info">Technologies covered:</p>
+        <ul class="info">
+          <li>Web Fundamentals</li>
+          <li>MongoDB</li>
+          <li>Express</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>JS</li>
+          <li>Socket.IO</li>
+        </ul>
+      </div>
+
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h3>Java Bootcamp</h3>
+        <p class="info">
+          Java is a high-level programming language that revolutionized the way
+          languages were developed post its release. It has been widely adopted
+          by most all companies and institutions in the industry going strong
+          for 20+ years.
+        </p>
+        <p class="info">Technologies covered:</p>
+        <ul class="info">
+          <li>Web Fundamentals</li>
+          <li>Java 8</li>
+          <li>JSP</li>
+          <li>SpringMVC</li>
+          <li>MySQL</li>
+          <li>JPA</li>
+          <li>Tomcat</li>
+        </ul>
+      </div>
+      <div class="overlay hidden"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
